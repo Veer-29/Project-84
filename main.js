@@ -41,7 +41,7 @@ function my_keydown(e)
 		//write a code to check the type of key pressed
 		{
 			numberkey();
-			document.getElementById("d1").innerHTML="You pressed Alphabet Key";
+			document.getElementById("d1").innerHTML="You pressed Number Key";
 			console.log("numberkey");
 		}
 		else{
@@ -49,15 +49,15 @@ function my_keydown(e)
 		//write a code to check the type of key pressed
 		{
 			arrowkey();
-			document.getElementById("d1").innerHTML="You pressed Alphabet Key";
+			document.getElementById("d1").innerHTML="You pressed Arrow Key";
 			console.log("arrowkey");
 		}
 		else{
-		if((keyPressed ==17 && keyPressed==18 && keyPressed==27))
+		if((keyPressed ==17)||(keyPressed==18)||(keyPressed==27))
 		//write a code to check the type of key pressed
 		{
 			specialkey();
-			document.getElementById("d1").innerHTML="You pressed Alphabet Key";
+			document.getElementById("d1").innerHTML="You pressed SpecialKey";
 			console.log("specialkey");
 		}	
 		else{
